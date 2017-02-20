@@ -1,0 +1,500 @@
+/***********MAIN*************/
+
+
+/***********MAIN*************/
+
+
+/***********MAIN*************/
+
+
+/***********MAIN*************/
+
+@font-face {
+    font-family: hyjkj;
+    src: url(../fonts/hyjkj.ttf);
+}
+
+html,
+body {
+    cursor: default;
+    font-family: hyjkj;
+    height: 100%;
+}
+
+.main-stage {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.main-day {
+    background: radial-gradient(circle at left top, #f7eebf, #cbeff5, #eaf0f0);
+}
+
+.main-night {
+    background: radial-gradient(circle at left top, #7c6ea3, #231940, #03010a);
+}
+
+.main-stage-left {
+    position: absolute;
+    height: 100%;
+    width: 50vh;
+}
+
+.main-stage-center {
+    position: absolute;
+    right: 18vh;
+    bottom: 30vh;
+    top: 1vh;
+    left: 1vh;
+}
+
+.main-stage-right {
+    float: right;
+    margin-top: 5.5555vh;
+    height: 100%;
+}
+
+
+/***********LEFT*************/
+
+
+/***********LEFT*************/
+
+
+/***********LEFT*************/
+
+
+/***********LEFT*************/
+
+.left-icon {
+    margin-left: 11.1111vh;
+    width: 55vh;
+    height: 55vh;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    background: url(../licon/5.jpg);
+    border: 4px solid #666;
+    border-radius: 5px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-filter: blur(5px);
+    -o-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.left-microphone {
+    margin-top: 15.2222vh;
+    margin-left: 27.7778vh;
+    width: 15.7135vh;
+    height: 15.7135vh;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    border-radius: 2px;
+    border: 4px solid #111;
+    -webkit-animation: ani1 2s infinite;
+    -o-animation: ani1 2s infinite;
+    animation: ani1 2s infinite;
+    -webkit-filter: drop-shadow(0 0 10px #111);
+    -o-filter: drop-shadow(0 0 10px #111);
+    filter: drop-shadow(0 0 10px #111);
+}
+
+@-webkit-keyframes ani1 {
+    0% {
+        background: #aa9db7;
+    }
+    33% {
+        background: #7b7484;
+    }
+    66% {
+        background: #d9d3d9;
+    }
+    100% {
+        background: #aa9db7;
+    }
+}
+
+@-o-keyframes ani1 {
+    0% {
+        background: #aa9db7;
+    }
+    33% {
+        background: #7b7484;
+    }
+    66% {
+        background: #d9d3d9;
+    }
+    100% {
+        background: #aa9db7;
+    }
+}
+
+@-moz-keyframes ani1 {
+    0% {
+        background: #aa9db7;
+    }
+    33% {
+        background: #7b7484;
+    }
+    66% {
+        background: #d9d3d9;
+    }
+    100% {
+        background: #aa9db7;
+    }
+}
+
+@keyframes ani1 {
+    0% {
+        background: #aa9db7;
+    }
+    33% {
+        background: #7b7484;
+    }
+    66% {
+        background: #d9d3d9;
+    }
+    100% {
+        background: #aa9db7;
+    }
+}
+
+.left-microphone:hover {
+    -webkit-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    -o-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+}
+
+.fa-microphone {
+    font-size: 10vh;
+    transform: rotate(-45deg) translate(1.1vh, 5vh);
+}
+
+.left-name {
+    line-height: 2vh;
+    position: absolute;
+    bottom: 22vh;
+    left: 1vh;
+    font-size: 5vh;
+    font-weight: 800;
+    text-shadow: 0 0 3px #111;
+}
+
+sub {
+    margin-left: 0.3vh;
+    font-size: 2vh;
+    font-weight: 500;
+}
+
+
+/***********CENTER*************/
+
+
+/***********CENTER*************/
+
+
+/***********CENTER*************/
+
+
+/***********CENTER*************/
+
+.main-stage-center {
+    position: absolute;
+    right: 18vh;
+    bottom: 30vh;
+    top: 1vh;
+    left: 1vh;
+}
+
+.message {
+    font-size: 2.2vh;
+    margin-bottom: 0;
+    padding-top: 1em;
+    border-top: 1px solid #666;
+}
+
+.message:first-child {
+    margin-top: 1em;
+    border-top: none;
+}
+
+
+/***********RIGHT*************/
+
+
+/***********RIGHT*************/
+
+
+/***********RIGHT*************/
+
+
+/***********RIGHT*************/
+
+.right-player {
+    width: 11.1111vh;
+    height: 11.1111vh;
+    margin-bottom: -5.5555vh;
+}
+
+.right-odd {
+    margin-left: -5.5555vh;
+}
+
+.right-odd>.right-num {
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+    font-size: 2vh;
+    float: left;
+}
+
+.right-even>.right-num {
+    font-weight: 800;
+    z-index: 1;
+    position: relative;
+    font-size: 2vh;
+    float: right;
+}
+
+.right-icon {
+    z-index: 1;
+    position: relative;
+    top: 1.6272vh;
+    left: 1.6272vh;
+    width: 7.8567vh;
+    height: 7.8567vh;
+    transform: rotate(45deg);
+    background: red;
+    border: 1px solid #111;
+}
+
+.right-icon:hover {
+    z-index: 0;
+    -webkit-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    -o-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+}
+
+
+/***********OTHER*************/
+
+
+/***********OTHER*************/
+
+
+/***********OTHER*************/
+
+
+/***********OTHER*************/
+
+.other-logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 11.1111vh solid #111;
+    border-left: 11.1111vh solid transparent;
+}
+
+.other-logo:hover {
+    z-index: 1;
+    -webkit-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    -o-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+}
+
+.other-logo-text {
+    text-align: center;
+    font-size: 1vh;
+    position: fixed;
+    top: 2vh;
+    right: -2.5vh;
+    transform: rotate(45deg);
+    color: #fff;
+}
+
+.other-done {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 16.6666vh solid #111;
+    border-right: 16.6666vh solid transparent;
+}
+
+.other-done:hover {
+    -webkit-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    -o-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+}
+
+.fa-microphone-slash {
+    color: #fff;
+    font-size: 7vh;
+    transform: translate(1.5vh, 8vh);
+    -webkit-filter: drop-shadow(0 0 10px #eee);
+    -o-filter: drop-shadow(0 0 10px #eee);
+    filter: drop-shadow(0 0 10px #eee);
+}
+
+
+/***********CARD*************/
+
+
+/***********CARD*************/
+
+
+/***********CARD*************/
+
+
+/***********CARD*************/
+
+.card {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 3vh 3vh 0 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+img {
+    width: 10vh;
+    height: 10vh;
+    margin: 0 0 3vh 3vh;
+}
+
+img:last-child {
+    box-shadow: 0 0 5vh #fff;
+}
+
+
+/***********ICON INIT*************/
+
+
+/***********ICON INIT*************/
+
+
+/***********ICON INIT*************/
+
+
+/***********ICON INIT*************/
+
+.right-1 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-2 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-3 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-4 {
+    background: url(../icon/carte3.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-5 {
+    background: url(../icon/carte2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-6 {
+    background: url(../icon/carte7.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-7 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-8 {
+    background: url(../icon/carte2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-9 {
+    background: url(../icon/carte5.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-10 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-11 {
+    background: url(../icon/carte2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-12 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-13 {
+    background: url(../icon/carte6.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-14 {
+    background: url(../icon/carte8.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-15 {
+    background: url(../icon/carte1.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.right-16 {
+    background: url(../icon/carte2.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.g {
+    color: #2020d4;
+    text-shadow: 0 0 5px #eee;
+}
+
+.r {
+    color: #03520c;
+    text-shadow: 0 0 5px #eee;
+}
+
+.e {
+    color: #d80000;
+    text-shadow: 0 0 5px #eee;
+}
