@@ -75,7 +75,7 @@ body {
     height: 55vh;
     transform: rotate(45deg);
     transform-origin: top left;
-    background: url(../licon/5.jpg);
+    background: url(../licon/3.jpg);
     border: 4px solid #666;
     border-radius: 5px;
     -webkit-background-size: cover;
@@ -309,7 +309,7 @@ sub {
 
 .other-logo-text {
     text-align: center;
-    font-size: 1vh;
+    font-size: 2vh;
     position: fixed;
     top: 2vh;
     right: -2.5vh;
@@ -370,6 +370,12 @@ img {
     width: 10vh;
     height: 10vh;
     margin: 0 0 3vh 3vh;
+}
+
+img:hover {
+    -webkit-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    -o-filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
+    filter: drop-shadow(0 0 10px #111) contrast(0.1) brightness(3);
 }
 
 img:last-child {
@@ -496,5 +502,10 @@ img:last-child {
 
 .e {
     color: #d80000;
+    text-shadow: 0 0 5px #eee;
+}
+
+.a {
+    color: #d7e856;
     text-shadow: 0 0 5px #eee;
 }
